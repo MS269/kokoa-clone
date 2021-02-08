@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-My first clone!
+My first clone to improve HTML & CSS!
