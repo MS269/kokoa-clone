@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-First clone!
+My first clone!
