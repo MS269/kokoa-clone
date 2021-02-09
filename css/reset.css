@@ -128,11 +128,16 @@ table {
   border-spacing: 0;
 }
 
-/* custom */
+/* Custom */
 input:focus {
   outline: none;
 }
 
 a:focus {
   outline: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
 }
