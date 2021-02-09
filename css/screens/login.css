@@ -17,6 +17,8 @@
   opacity: 0.5;
 }
 
+/* Compared with BEM */
+
 #login-form {
   display: flex;
   flex-direction: column;
