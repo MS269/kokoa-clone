@@ -2,7 +2,7 @@
   background-color: tomato;
   width: 25px;
   height: 25px;
-  border-radius: 50%;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,20 +10,37 @@
   font-weight: 600;
 }
 
-.badge--dot {
+.badge--2d {
+  width: 30px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.badge--3d {
+  width: 40px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.badge--4d {
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.badge--new {
   display: block;
   width: 6px;
   height: 6px;
+  position: absolute;
 }
 
-.badge--nav {
-  position: absolute;
+.badge--new--nav {
   left: 35px;
   bottom: 25px;
 }
 
-.badge--screen-header {
-  position: absolute;
+.badge--new--screen-header {
   left: 20px;
   bottom: 20px;
 }
