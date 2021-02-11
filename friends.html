@@ -26,9 +26,16 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="screen-header__icons__column">
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span class="screen-header__icons__column">
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span class="screen-header__icons__column">
+          <i class="fas fa-cog fa-lg"></i>
+          <span class="badge badge--dot badge--screen-header"></span>
+        </span>
       </div>
     </header>
 
@@ -71,6 +78,7 @@
             </div>
           </div>
           <div class="user-component__column">
+            <!-- below div is for dispaly: flex -->
             <div>
               <span>2</span>
               <i class="fas fa-chevron-right fa-xs"></i>
@@ -100,8 +108,8 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__new"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
+            <span class="badge badge--dot badge--nav"></span>
           </a>
         </li>
       </ul>

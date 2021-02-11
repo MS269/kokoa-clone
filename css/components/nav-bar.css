@@ -23,13 +23,3 @@
   left: 20px;
   bottom: 15px;
 }
-
-.nav__new {
-  background-color: tomato;
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  position: absolute;
-  left: 35px;
-}

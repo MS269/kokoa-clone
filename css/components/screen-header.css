@@ -10,6 +10,7 @@
   font-weight: 700;
 }
 
-.screen-header__icons span {
+.screen-header__icons__column {
   margin-left: 30px;
+  position: relative;
 }
