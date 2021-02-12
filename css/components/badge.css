@@ -32,15 +32,4 @@
   display: block;
   width: 6px;
   height: 6px;
-  position: absolute;
-}
-
-.badge--new--nav {
-  left: 35px;
-  bottom: 25px;
-}
-
-.badge--new--screen-header {
-  left: 20px;
-  bottom: 20px;
 }

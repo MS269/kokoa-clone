@@ -23,3 +23,9 @@
   left: 20px;
   bottom: 15px;
 }
+
+.nav__new {
+  position: absolute;
+  left: 35px;
+  bottom: 25px;
+}
