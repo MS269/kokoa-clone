@@ -1,0 +1,14 @@
+.stars-rating {
+  font-size: 14px;
+  color: #ffce33;
+  margin: 10px 0px;
+}
+
+.stars-rating--sml {
+  font-size: 7px;
+  margin: 15px 0px;
+}
+
+.stars--empty {
+  color: rgba(0, 0, 0, 0.1);
+}
