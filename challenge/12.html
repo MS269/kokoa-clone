@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Music App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="12.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-search"></i>
+      </header>
+      <main>
+        <div class="singer">
+          <img
+            class="singer__portrait"
+            src="C:\Prog\kokoa-clone\imgs\IU04.png"
+          />
+          <h1 class="singer__name">Tyler, the Creator</h1>
+          <h3 class="singer__genre">Rap, Hip-Hop</h3>
+        </div>
+        <div class="btns">
+          <span class="btns__shuffle-btn">Shuffle</span>
+          <span class="btns__heart-btn">
+            <i class="btns__heart-icon fas fa-heart"></i>
+            <span class="btns__heart-count">212 971</span>
+          </span>
+        </div>
+        <ul class="play-list">
+          <li class="play-list__song">
+            <img
+              class="play-list__cover"
+              src="C:\Prog\kokoa-clone\imgs\IU04.png"
+            />
+            <div class="play-list__info">
+              <h1 class="play-list__singers">Tyler, the Creator</span>
+              <h5 class="play-list__title">Earfquake</span>
+            </div>
+            <i class="play-list__epllipsis fas fa-ellipsis-v"></i>
+          </li>
+          <li class="play-list__song play-list__song--playing">
+            <div class="play-list__cover-wrapper">
+              <img
+              class="play-list__cover"
+              src="C:\Prog\kokoa-clone\imgs\IU04.png"
+              />
+            </div>
+            <div class="play-list__info">
+              <h1 class="play-list__singers">Tyler, the Creator</span>
+                <h5 class="play-list__title">November</span>
+                </div>
+                <i class="play-list__epllipsis fas fa-ellipsis-v"></i>
+              </li>
+              <li class="play-list__song">
+                <img
+                  class="play-list__cover"
+                  src="C:\Prog\kokoa-clone\imgs\IU04.png"
+                />
+                <div class="play-list__info">
+                  <h1 class="play-list__singers">Tyler, the Creator</span>
+                  <h5 class="play-list__title">911</span>
+                </div>
+                <i class="play-list__epllipsis fas fa-ellipsis-v"></i>
+              </li>
+              <li class="play-list__song">
+                <img
+                  class="play-list__cover"
+                  src="C:\Prog\kokoa-clone\imgs\IU04.png"
+                />
+                <div class="play-list__info">
+                  <h1 class="play-list__singers">Tyler, the Creator</span>
+                  <h5 class="play-list__title">Wolf</span>
+                </div>
+                <i class="play-list__epllipsis fas fa-ellipsis-v"></i>
+              </li>
+            </ul>
+        <div class="play-bar">
+          <div class="play-bar__info">
+            <h1 class="play-bar__singers">Tyler, the Creator</span>
+            <h5 class="play-bar__title">November</span>
+          </div>
+          <div class="play-bar__btns">
+            <i class="play-bar__btn fas fa-step-backward"></i>
+            <i class="play-bar__btn play-bar__btn--big fas fa-pause"></i>
+            <i class="play-bar__btn fas fa-step-forward"></i>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="wrapper">
+      <header>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </header>
+      <main>
+        <div class="playing-song">
+          <img class="playing-song__cover" src="C:\Prog\kokoa-clone\imgs\IU04.png"/>
+          <h1 class="playing-song__title">November</span>
+          <h3 class="playing-song__singer">Tyler, the Creator</span>
+        </div>
+        <div class="play-time">
+          <div class="play-time__time">
+            <span class="play-time_current-time">1:56</span>
+            <span class="play-time__end-time">2:21</span>
+          </div>
+          <form class="play-time__bar" method="GET">
+            <input type="range" min="0" max="141" value="116" step="1" disabled>
+          </form>
+        </div>
+        <div class="play-btns">
+          <span class="play-btns__btn play-btns__btn--off"><i class="fas fa-redo"></i></span>
+          <span class="play-btns__btn"><i class="fas fa-step-backward"></i></span>
+          <span class="play-btns__btn play-btns__btn--circle"><i class="fas fa-play"></i></span>
+          <span class="play-btns__btn"><i class="fas fa-step-forward"></i></span>
+          <span class="play-btns__btn play-btns__btn--off"><i class="fas fa-random"></i></span>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

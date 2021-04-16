@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img {
+  overflow: hidden;
+}
+
+.wrapper {
+  background-color: rgb(250, 250, 250);
+  max-width: 270px;
+  max-height: 580px;
+  width: 270px;
+  height: 580px;
+  border-radius: 30px;
+}
+
+header {
+  margin: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.singer__portrait {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.singer__name {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.singer__genre {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btns__shuffle-btn,
+.btns__heart-btn {
+  width: 90px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns__shuffle-btn {
+  color: white;
+  background-color: black;
+  font-size: 12px;
+}
+
+.btns__heart-btn {
+  color: black;
+  background-color: white;
+}
+
+.btns__heart-icon {
+  margin-right: 10px;
+}
+
+.btns__heart-count {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.play-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-list__song {
+  width: 240px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-list__song--playing {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.play-list__cover {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+
+.play-list__info {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.play-list__singers {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.play-list__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.play-list__epllipsis {
+  opacity: 0.5;
+}
+
+.play-bar {
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-bar__singers {
+  text-transform: capitalize;
+  font-size: 10px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.play-bar__title {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.play-bar__btns {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-bar__btn {
+  font-size: 10px;
+}
+
+.play-bar__btn--big {
+  font-size: 18px;
+}
+
+.playing-song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.playing-song__cover {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1),
+    5px 30px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.playing-song__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.playing-song__singer {
+  text-transform: capitalize;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.play-time {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play-time__time {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.play-time__bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.play-time__bar input {
+  width: 220px;
+  height: 5px;
+}
+
+.play-time__bar input {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-btns {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-btns__btn--circle {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btns__btn--circle i {
+  color: white;
+}
+
+.play-btns__btn--off {
+  opacity: 0.5;
+}
